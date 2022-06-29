@@ -1,0 +1,353 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.topstar {
+  width: 100%;
+  position: absolute;
+}
+.unlock-text {
+  font-family: "Poppins";
+  font-size: 60px;
+  line-height: 91%;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: -0.015em;
+}
+.unlock-sub-text {
+  font-family: "Poppins";
+  font-size: 70px;
+  line-height: 91%;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: -0.015em;
+}
+.win-text {
+  /* font-family: 'Inter'; */
+  font-weight: 50;
+  font-size: 25px;
+  line-height: 111.5%;
+  text-align: center;
+  letter-spacing: -0.06em;
+  color: #ffffff;
+}
+.win-sub-text {
+  /* font-family: 'Inter'; */
+  font-weight: 50;
+  font-size: 29.4318px;
+  line-height: 111.5%;
+  text-align: center;
+  letter-spacing: -0.06em;
+  color: #ffffff;
+}
+.win-sub-text strong {
+  font-weight: 500;
+}
+.table {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 27px;
+  width: 425px;
+  height: 257px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0.39) -213.5%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  box-shadow: inset 0px -1px 11px rgba(255, 255, 255, 0.17),
+    inset 0px 2px 0px rgba(255, 255, 255, 0.24);
+  border-radius: 8px;
+}
+.table-text-1 {
+  /* font-family: 'Inter'; */
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+  text-align: center;
+  color: #ffffff;
+}
+.table-text-2 {
+  /* font-family: 'Inter'; */
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.inner-table {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  width: 371px;
+  height: 77px;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.inner-table-text {
+  /* font-family: 'Inter'; */
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 160%;
+  letter-spacing: -0.02em;
+  color: #ffffff;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4px;
+  width: 225px;
+  height: 56px;
+  background: #ecab03;
+  border-radius: 4px;
+}
+.button div {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 10;
+  mix-blend-mode: normal;
+}
+.coin-pot {
+  position: absolute;
+  top: 100%;
+}
+.coin-left {
+  position: absolute;
+  right: 65.96%;
+  top: 62.68%;
+  bottom: 48.78%;
+  animation: left 4s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
+}
+.coin-right {
+  position: absolute;
+  left: 70.53%;
+  right: 7.95%;
+  top: 72.49%;
+  bottom: 22.51%;
+  animation: left 3s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
+}
+.star {
+  position: absolute;
+  left: 20.15%;
+  top: 120%;
+}
+.star1 {
+  position: absolute;
+  left: 20.15%;
+  bottom: 13.21%;
+}
+.fan {
+  position: absolute;
+  top: 130%;
+}
+.motor {
+  position: relative;
+  width: 80px;
+  height: 80px;
+  animation: spin 4s linear infinite;
+}
+.blade1 {
+  position: absolute;
+  width: 40px;
+  height: 120px;
+  background: linear-gradient(
+    1.87deg,
+    rgba(255, 229, 0, 0.5) -1.18%,
+    rgba(255, 230, 9, 0.435) 3.33%,
+    rgba(255, 231, 23, 0.335) 10.55%,
+    rgba(255, 233, 36, 0.245) 17.77%,
+    rgba(255, 234, 47, 0.17) 25.89%,
+    rgba(255, 234, 56, 0.11) 34.01%,
+    rgba(255, 235, 62, 0.06) 42.13%,
+    rgba(255, 236, 67, 0.025) 51.15%,
+    rgba(255, 236, 70, 0.005) 60.17%,
+    rgba(255, 236, 71, 0) 71.89%
+  );
+  transform: rotate(67.5deg);
+  top: 0%;
+  left: 70%;
+}
+.blade2 {
+  position: absolute;
+  width: 40px;
+  height: 120px;
+  transform: rotate(40deg);
+  top: 0%;
+  left: 40%;
+}
+.blade3 {
+  position: absolute;
+  width: 40px;
+  height: 120px;
+  transform: rotate(0deg);
+  top: 0%;
+}
+.blade4 {
+  position: absolute;
+  width: 40px;
+  height: 120px;
+  transform: rotate(315deg);
+  top: 60%;
+  left: -20%;
+}
+.blade5 {
+  position: absolute;
+  width: 40px;
+  height: 120px;
+  transform: rotate(292.5deg);
+  top: 75%;
+  left: -50%;
+}
+.blade6 {
+  position: absolute;
+  width: 40px;
+  height: 120px;
+  transform: rotate(260deg);
+  top: 120%;
+  left: 5%;
+}
+.blade7 {
+  position: absolute;
+  width: 40px;
+  height: 120px;
+  transform: rotate(220deg);
+  top: 140%;
+  left: 50%;
+}
+.blade8 {
+  position: absolute;
+  width: 40px;
+  height: 120px;
+  transform: rotate(180deg);
+  top: 150%;
+  left: 90%;
+}
+.blade9 {
+  position: absolute;
+  width: 40px;
+  height: 120px;
+  transform: rotate(135deg);
+  top: 75%;
+  left: 100%;
+}
+.blade10 {
+  position: absolute;
+  width: 40px;
+  height: 120px;
+  transform: rotate(112.5deg);
+  top: 60%;
+  left: 120%;
+}
+.bottomStar {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  animation: round 4s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
+}
+.bottomStar1 {
+  position: absolute;
+  left: 50%;
+  top: 125%;
+  animation: round 4s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
+}
+.bottomStar2 {
+  position: absolute;
+  right: 50%;
+  top: 130%;
+  animation: round 4s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
+}
+.bottomStar3 {
+  position: absolute;
+  right: 50%;
+  top: 100%;
+  animation: round 4s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
+}
+.bottomStar4 {
+  position: absolute;
+  right: 50%;
+  top: 105%;
+  animation: round 4s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
+}
+.bottomStar5 {
+  position: absolute;
+  right: 65.96%;
+  top: 120%;
+  animation: round 4s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
+}
+.bottomStar6 {
+  position: absolute;
+  right: 55.96%;
+  top: 100%;
+  animation: round 4s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
+}
+.bottomStar7 {
+  position: absolute;
+  right: 55.96%;
+  top: 120%;
+  animation: round 4s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
+}
+.bottomStar8 {
+  position: absolute;
+  left: 55.96%;
+  top: 120%;
+  animation: round 4s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
+}
+.bottomStar9 {
+  position: absolute;
+  left: 45.96%;
+  top: 130%;
+  animation: round 4s cubic-bezier(0.6, -0.28, 0.735, 0.045) infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes left {
+  100% {
+    transform: translateY(100%);
+  }
+}
+@keyframes round {
+  100% {
+    transform: translateY(2000%);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .unlock-text,
+  .unlock-sub-text {
+    font-size: 40px;
+  }
+  .win-text,
+  .win-sub-text {
+    font-size: 16px;
+  }
+  .table {
+    width: 335px;
+    height: 298px;
+  }
+  .inner-table {
+    width: 290px;
+    height: 96px;
+  }
+  /* .coinPot {
+    height: 350px;
+  } */
+}
