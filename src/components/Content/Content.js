@@ -36,7 +36,7 @@ export default function Content() {
         </>
 
         <div className="table">
-          <div className="table-text-1">🚀 How to Play</div>
+          <h1 className="table-text-1">🚀 How to Play</h1>
           <>
             <div className="table-text-2">
               1. Guess the right combination of numbers
