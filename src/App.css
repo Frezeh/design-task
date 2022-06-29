@@ -1,5 +1,6 @@
 body {
   background-image: url(./assets/images/background.png);
   position: fixed;
-  max-width: 100;
+  min-width: 100%;
+  font-family: 'Poppins';
 }

@@ -26,37 +26,34 @@ export default function Content() {
       <div className="container">
         <>
           <div className="unlock-text">Unlock to</div>
-          <p className="unlock-sub-text">
-            {" "}
+          <div className="unlock-sub-text">
             <strong>Power your dreams!</strong>
-          </p>
+          </div>
           <div className="win-text">Stand a chance to win</div>
-          <p className="win-sub-text">
+          <div className="win-sub-text">
             <strong>N3,000,000</strong> everyday for the next 5 days
-          </p>
+          </div>
         </>
 
         <div className="table">
-          <div className="container">
-            <p className="table-text-1">🚀 How to Play</p>
-          </div>
-          <div>
+          <div className="table-text-1">🚀 How to Play</div>
+          <>
             <div className="table-text-2">
               1. Guess the right combination of numbers
             </div>
-            <p className="table-text-2">2. Win N3,000,000 instantly</p>
+            <div className="table-text-2">2. Win N3,000,000 instantly</div>
             <p className="table-text-2">
               Sounds unbelievable? Well, guess right & see for yourself!
             </p>
-          </div>
+          </>
           <div className="inner-table">
-            <div style={{ display: "flex", flexDirection: "row" }}>
-              <p>💡</p>
-              <p className="inner-table-text">
+            <div className="row">
+              <div>💡</div>
+              <div className="inner-table-text">
                 Think well before you guess. You have only 2 attempts per day
                 and even after you win, you can come back the next day to try
                 for another jackpot!
-              </p>
+              </div>
             </div>
           </div>
         </div>
