@@ -41,7 +41,7 @@ export default function Content() {
             <div className="table-text-2">
               1. Guess the right combination of numbers
             </div>
-            <div className="table-text-2">2. Win N3,000,000 instantly</div>
+            <div className="table-text-2">2. Win <strong>N3,000,000</strong> instantly</div>
             <p className="table-text-2">
               Sounds unbelievable? Well, guess right & see for yourself!
             </p>

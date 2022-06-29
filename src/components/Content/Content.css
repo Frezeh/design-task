@@ -87,6 +87,9 @@
   letter-spacing: -0.02em;
   color: #ffffff;
 }
+.table-text-2 strong {
+  font-weight: 600px;
+}
 .inner-table {
   display: flex;
   flex-direction: column;
